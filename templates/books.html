@@ -1,0 +1,12 @@
+<h1> Barcha kitoblar shu yerda </h1>
+
+{% for book in object_list %}
+<ul>
+    <li> Tittle {{ book.title }}</li>
+    <li> Subtitle {{ book.subtitle }}</li>
+    <li> author {{ book.author }}</li>
+    <li> isb {{ book.isb }}</li>
+</ul>
+
+
+{% endfor %}
